@@ -32,22 +32,22 @@ namespace _053502_Volodkov_Lab5
                 Console.WriteLine("4 - Общая сумма выплат по процентам для всех вкладов");
                 Console.WriteLine("0 - Выход");
 
-                int n = Int32.Parse(Console.ReadLine());
-                switch (n)
+                ConsoleKey consoleKey = Console.ReadKey().Key;
+                switch (consoleKey)
                 {
-                    case 1:
+                    case ConsoleKey.D1:
                         for (int i = 0; i < bank.Count; i++)
                         {
                             bank[i].Show();
                         }
                         break;
-                    case 2:
+                    case ConsoleKey.D2:
                         for (int i = 0; i < clients.Count; i++)
                         {
                             clients[i].Show();
                         }
                         break;
-                    case 3:
+                    case ConsoleKey.D3:
                         for (int i = 0; i < clients.Count; i++)
                         {
                             clients[i].Show(1);
@@ -60,7 +60,7 @@ namespace _053502_Volodkov_Lab5
                         int w = Int32.Parse(Console.ReadLine());
                         clients[q - 1].Money += w;
                         break;
-                    case 4:
+                    case ConsoleKey.D4:
                         for(int i = 0; i < clients.Count; i++)
                         {
                             for(int j = 0; j < bank.Count; j++)

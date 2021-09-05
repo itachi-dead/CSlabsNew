@@ -18,7 +18,6 @@ namespace _053502_Volodkov_Lab5.Collections
         public Node<T> Next { get; set; }
     }
 
-
     public class MyCustomCollection<T> : IEnumerable<T>, ICustomCollection<T>
     {
         Node<T> head;
@@ -36,13 +35,13 @@ namespace _053502_Volodkov_Lab5.Collections
         {
             get
             {
-                if(index >= count)
+                if (index >= count)
                 {
                     throw new IndexOutOfRangeException(nameof(index));
                 }
                 Node<T> current = head;
-                int i = index+1;
-                while(count - i > 0)
+                int i = index + 1;
+                while (count - i > 0)
                 {
                     i++;
                     current = current.Next;
@@ -52,7 +51,7 @@ namespace _053502_Volodkov_Lab5.Collections
         }
         public void Next()
         {
-            if(cursor < count )
+            if (cursor < count)
             {
                 cursor++;
             }
@@ -65,7 +64,7 @@ namespace _053502_Volodkov_Lab5.Collections
         public T Current()
         {
             Node<T> current = head;
-            int i = cursor+ 1;
+            int i = cursor + 1;
             while (count - i > 0)
             {
                 i++;
@@ -84,26 +83,35 @@ namespace _053502_Volodkov_Lab5.Collections
 
         public void Remove(T item)
         {
-            Node<T> newHead = default;
+            bool isExist = false;
             foreach(var i in this)
             {
                 if (i.Equals(item))
                 {
+                    isExist = true;
                     continue;
                 }
-                Node<T> node = new Node<T>(i);
-                node.Next = newHead; // переустанавливаем верхушку стека на новый элемент
-                newHead = node;
             }
-            head = newHead;
-           
+                Node<T> newHead = default;
+                foreach (var i in this)
+                {
+                    if (i.Equals(item))
+                    {
+                        continue;
+                    }
+                    Node<T> node = new Node<T>(i);
+                    node.Next = newHead; // переустанавливаем верхушку стека на новый элемент
+                    newHead = node;
+                }
+                head = newHead;
+            
         }
 
         public T RemoveCurrent()
         {
             T item = Current();
             Remove(Current());
-             return item;
+            return item;
         }
         //public T Pop()
         //{
