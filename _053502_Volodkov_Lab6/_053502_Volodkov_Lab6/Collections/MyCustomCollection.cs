@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _053502_Volodkov_Lab5.Collections
+namespace _053502_Volodkov_Lab6.Collections
 {
     public class Node<T>
     {

@@ -24,6 +24,7 @@ namespace _053502_Volodkov_Lab5
                 new Income{Name = "Alphabank" , Percentage = 15},
                 new Income{Name = "MTBank" , Percentage = 12},
             };
+            Bank temp = new Bank();
             while (true)
             {
                 Console.WriteLine("1 - Информация о процентах по вкладам");
@@ -36,41 +37,20 @@ namespace _053502_Volodkov_Lab5
                 switch (consoleKey)
                 {
                     case ConsoleKey.D1:
-                        for (int i = 0; i < bank.Count; i++)
-                        {
-                            bank[i].Show();
-                        }
+                        Console.WriteLine();
+                        temp.Show(bank);
                         break;
                     case ConsoleKey.D2:
-                        for (int i = 0; i < clients.Count; i++)
-                        {
-                            clients[i].Show();
-                        }
+                        Console.WriteLine();
+                        temp.Show(clients);
                         break;
                     case ConsoleKey.D3:
-                        for (int i = 0; i < clients.Count; i++)
-                        {
-                            clients[i].Show(1);
-                        }
-
-                        Console.WriteLine("Выберите человека, чей вклад хотите пополнить");
-                        int q = Int32.Parse(Console.ReadLine());
-
-                        Console.WriteLine("На сколько:");
-                        int w = Int32.Parse(Console.ReadLine());
-                        clients[q - 1].Money += w;
+                        Console.WriteLine();
+                        temp.ShowMoney(clients);
                         break;
                     case ConsoleKey.D4:
-                        for(int i = 0; i < clients.Count; i++)
-                        {
-                            for(int j = 0; j < bank.Count; j++)
-                            {
-                                if(bank[j].Name == clients[i].BankName)
-                                {
-                                    Console.WriteLine($"{clients[i].FirstName} {clients[i].SecondName} - {clients[i].Money * bank[j].Percentage / 100} per year");
-                                }
-                            }
-                        }
+                        Console.WriteLine();
+                        temp.Show(clients, bank);
                         break;
                     default:
                         return;
