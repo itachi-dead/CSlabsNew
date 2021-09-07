@@ -18,9 +18,11 @@ namespace _053502_Volodkov_Lab6.Entities
 
         public string BankName { get; set; }
 
+        public int Percentage { get; set; } = 0;
+
         public void Show()
         {
-            Console.WriteLine($"{FirstName} {SecondName} {Age} years, Bank : {BankName} ");
+            Console.WriteLine($"{FirstName} {SecondName} {Age} years, Bank : {BankName} , {Percentage}% ");
         }
 
         public void ShowMoney()

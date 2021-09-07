@@ -9,14 +9,14 @@ namespace _053502_Volodkov_Lab6
     {
         static void Main(string[] args)
         {
+            Bank bank = new Bank();
+            bank.Notify += UserChangedPlan;
+            bank.StartUp();
+        }
 
-            Bank a = new Bank(new MyCustomCollection<Client>() {
-                new Client(),
-                new Client(),
-                new Client(),
-                new Client(),
-                new Client()},
-                new MyCustomCollection<Income>() {new Income()});
+        public static void UserChangedPlan(string message)
+        {
+            Console.WriteLine(message);
         }
     }
 }

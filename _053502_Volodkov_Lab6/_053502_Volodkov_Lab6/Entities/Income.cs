@@ -10,11 +10,15 @@ namespace _053502_Volodkov_Lab6.Entities
     {
         public string Name { get; set; }
 
-        public int Percentage { get; set; }
+        public List<int> Percentage { get; set; }
 
         public void Show()
         {
-            Console.WriteLine($"{Name}, {Percentage}");
+            Console.WriteLine($"{Name},");
+            for(int i = 0; i < Percentage.Count; i++)
+            {
+                Console.WriteLine($"---{Percentage[i]}");
+            }
         }
     }
 }

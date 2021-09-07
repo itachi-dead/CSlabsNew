@@ -1,0 +1,16 @@
+C:\Users\kR9_h\source\repos\CSlabsNew\_053502_Volodkov_Lab6\_053502_Volodkov_Lab6\obj\Debug\net5.0\_053502_Volodkov_Lab6.csproj.AssemblyReference.cache
+C:\Users\kR9_h\source\repos\CSlabsNew\_053502_Volodkov_Lab6\_053502_Volodkov_Lab6\obj\Debug\net5.0\_053502_Volodkov_Lab6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kR9_h\source\repos\CSlabsNew\_053502_Volodkov_Lab6\_053502_Volodkov_Lab6\obj\Debug\net5.0\_053502_Volodkov_Lab6.AssemblyInfoInputs.cache
+C:\Users\kR9_h\source\repos\CSlabsNew\_053502_Volodkov_Lab6\_053502_Volodkov_Lab6\obj\Debug\net5.0\_053502_Volodkov_Lab6.AssemblyInfo.cs
+C:\Users\kR9_h\source\repos\CSlabsNew\_053502_Volodkov_Lab6\_053502_Volodkov_Lab6\obj\Debug\net5.0\_053502_Volodkov_Lab6.csproj.CoreCompileInputs.cache
+C:\Users\kR9_h\source\repos\CSlabsNew\_053502_Volodkov_Lab6\_053502_Volodkov_Lab6\bin\Debug\net5.0\_053502_Volodkov_Lab6.exe
+C:\Users\kR9_h\source\repos\CSlabsNew\_053502_Volodkov_Lab6\_053502_Volodkov_Lab6\bin\Debug\net5.0\_053502_Volodkov_Lab6.deps.json
+C:\Users\kR9_h\source\repos\CSlabsNew\_053502_Volodkov_Lab6\_053502_Volodkov_Lab6\bin\Debug\net5.0\_053502_Volodkov_Lab6.runtimeconfig.json
+C:\Users\kR9_h\source\repos\CSlabsNew\_053502_Volodkov_Lab6\_053502_Volodkov_Lab6\bin\Debug\net5.0\_053502_Volodkov_Lab6.runtimeconfig.dev.json
+C:\Users\kR9_h\source\repos\CSlabsNew\_053502_Volodkov_Lab6\_053502_Volodkov_Lab6\bin\Debug\net5.0\_053502_Volodkov_Lab6.dll
+C:\Users\kR9_h\source\repos\CSlabsNew\_053502_Volodkov_Lab6\_053502_Volodkov_Lab6\bin\Debug\net5.0\ref\_053502_Volodkov_Lab6.dll
+C:\Users\kR9_h\source\repos\CSlabsNew\_053502_Volodkov_Lab6\_053502_Volodkov_Lab6\bin\Debug\net5.0\_053502_Volodkov_Lab6.pdb
+C:\Users\kR9_h\source\repos\CSlabsNew\_053502_Volodkov_Lab6\_053502_Volodkov_Lab6\obj\Debug\net5.0\_053502_Volodkov_Lab6.dll
+C:\Users\kR9_h\source\repos\CSlabsNew\_053502_Volodkov_Lab6\_053502_Volodkov_Lab6\obj\Debug\net5.0\ref\_053502_Volodkov_Lab6.dll
+C:\Users\kR9_h\source\repos\CSlabsNew\_053502_Volodkov_Lab6\_053502_Volodkov_Lab6\obj\Debug\net5.0\_053502_Volodkov_Lab6.pdb
+C:\Users\kR9_h\source\repos\CSlabsNew\_053502_Volodkov_Lab6\_053502_Volodkov_Lab6\obj\Debug\net5.0\_053502_Volodkov_Lab6.genruntimeconfig.cache

@@ -1,4 +1,5 @@
-﻿using _053502_Volodkov_Lab5.Interfaces;
+﻿using _053502_Volodkov_Lab6.Entities;
+using _053502_Volodkov_Lab6.Interfaces;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -91,6 +92,11 @@ namespace _053502_Volodkov_Lab6.Collections
                     continue;
                 }
             }
+            if (!isExist)
+            {
+                throw new NoItemException("No such an item");
+            }
+
             Node<T> newHead = default;
             foreach (var i in this)
             {
